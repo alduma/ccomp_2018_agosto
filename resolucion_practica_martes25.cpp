@@ -121,7 +121,7 @@ int contarprimos(const int x[], int tam){
       for(int i=0;x[i]!='\0';x[i++]){
             c++;
         }
-      for (unsigned int i = 0; i < c / 2; i++) {
+      for ( int i = 0; i < c / 2; i++) {
         if (x[i] != x[c - 1 - i]) {
           return false;
         }
@@ -132,20 +132,20 @@ int main(){
     int arra[6]={4,5,9,11,7,6};
     char x[]="hasdfohoh";
     char t='i';
-    /*cout<<"numero mayor en el arreglo es : ";
-    cout<<mayor(arra,6);
-    cout<<"\n";
-    cout<<"en el arreglo los numeros primos son : ";
-    cout<<contarprimos(arra,6);
-    cout<<"\n";
-    cout<<"arreglo forma ascendiente:";
-    ordenar_numeros_d(arra,6);
-    cout<<"\n";
-    cout<<"arreglo forma descendiente:";
-    ordenar_numeros_ascendiente(arra,6);
-    cout<<"\n";
-    cout<<"el arreglo invertido es : ";*/
-    invertir2(arra,6);
+    //cout<<"numero mayor en el arreglo es : ";
+    //cout<<mayor(arra,6);
+    //cout<<"\n";
+    //cout<<"en el arreglo los numeros primos son : ";
+    //cout<<contarprimos(arra,6);
+    //cout<<"\n";
+    //cout<<"arreglo forma ascendiente:";
+    //ordenar_numeros_d(arra,6);
+    //cout<<"\n";
+    //cout<<"arreglo forma descendiente:";
+    //ordenar_numeros_ascendiente(arra,6);
+    //cout<<"\n";
+    //cout<<"el arreglo invertido es : ";*/
+    //invertir2(arra,6);
     //cout<<longitud(x);
     //cout<<contar_Caracter(x,t);
     //cout<<es_palindrome(x);

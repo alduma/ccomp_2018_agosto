@@ -26,6 +26,7 @@ class rectangulo:public poligono{
 class triangulo:public poligono{
 public:
   triangulo(int,int);
+  int area(void);
 }
 
 class circulo{

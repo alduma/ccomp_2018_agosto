@@ -20,6 +20,7 @@ class poligonoArray
     protected:
         poligono *arr;
         int size;
+        void resize(int size);
 
     private:
 };
